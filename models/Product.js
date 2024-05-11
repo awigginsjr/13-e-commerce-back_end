@@ -10,6 +10,7 @@ class Product extends Model {}
 Product.init(
   {
     // define columns
+    // id column
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
