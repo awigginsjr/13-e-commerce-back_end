@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   try {
-    const tagsData = await Tag.findOne({
+    const tags = await Tag.findOne({
       where: {
         id: req.params.id,
       },
@@ -28,7 +28,7 @@ router.get('/:id', async (req, res) => {
       include: [{ model: Product, through: ProductTag }]
     });
     // Send JSON response with tag
-    res.status(200).json(tagsData);
+    res.status(200).json(tags);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -45,7 +45,8 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id',async (req, res) => {
+
+router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
     const tag = await Tag.update(req.body, {

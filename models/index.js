@@ -27,7 +27,7 @@ Product.belongsToMany(Tag, {
 // Tags belongToMany Products (through ProductTag)
 // A tag can have multiple products, and a product can have many tags
 Tag.belongsToMany(Product, {
-  through: ProductTag,
+  through: ProductTag, 
   foreignKey: 'tag_id',
 });
 
