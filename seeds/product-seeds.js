@@ -1,5 +1,6 @@
 const { Product } = require('../models');
 
+// Data for the Product model
 const productData = [
   {
     product_name: 'Plain T-Shirt',

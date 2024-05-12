@@ -20,6 +20,7 @@ Tag.init(
     },
   },
   {
+    // define configuration
     sequelize,
     timestamps: false,
     freezeTableName: true,

@@ -30,4 +30,5 @@ Category.init(
   }
 );
 
+// export the Category model
 module.exports = Category;
