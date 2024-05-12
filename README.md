@@ -10,7 +10,7 @@ The following image and link demonstrates the web application's appearance and f
 
 Demo Link ~ []
 
-![screenshot]()
+![screenshot](/assets/images/ecommercescreenshot.png)
 
 ## Usage
 
@@ -22,4 +22,4 @@ If you have any additional questions, concerns, or would like to view more of my
 
 GitHub ~ [https://github.com/awigginsjr](https://github.com/awigginsjr)
 
-Repository ~ []()
+Repository ~ [https://github.com/awigginsjr/13-e-commerce-back_end.git](https://github.com/awigginsjr/13-e-commerce-back_end.git)
