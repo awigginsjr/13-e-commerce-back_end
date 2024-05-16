@@ -8,7 +8,7 @@ A functional back end for an e-commerce site that uses the latest technologies, 
 
 The following image and link demonstrates the web application's appearance and functionality:
 
-Demo Link ~ [https://drive.google.com/file/d/1RJsg6dni6uBnFjcaoU6MksdcbY62DU7j/view](https://drive.google.com/file/d/1RJsg6dni6uBnFjcaoU6MksdcbY62DU7j/view)
+Demo Link ~ [https://drive.google.com/file/d/1RJsg6dni6uBnFjcaoU6MksdcbY62DU7j/view?usp=sharing](https://drive.google.com/file/d/1RJsg6dni6uBnFjcaoU6MksdcbY62DU7j/view?usp=sharing)
 
 ![screenshot](/assets/images/ecommercescreenshot.png)
 
